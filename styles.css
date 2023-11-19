@@ -1,0 +1,129 @@
+.article-item {
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+#red-shrubs {
+    color: #e44343;
+}
+
+#green-shrubs {
+    color: #3ea46c;
+}
+#white-shrubs {
+    color: #ffffff;
+}
+.article_shrubs {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 20px 0px;
+}
+
+.logo{
+ text-align: center;
+}
+
+.home{
+    color: #e44343;
+    text-align: center;
+    font-size: 25px;
+    box-shadow: 8px 8px 8px 12x rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    display: grid;
+    grid-area: footer;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #670729;
+    height: 70px;
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+.container {
+    background-color: #42071a;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "header"
+        "nav"
+        "main"
+        "article"
+        "footer";
+    min-height: 100vh;
+    box-shadow: 0 10px 12px rgba(0, 0, 0, 0.5);
+    font-size: 25px;
+}
+
+.navigation_bar{
+    grid-area: nav;
+    background-color: #830933;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.nav-link > a {
+    text-align: center;
+    display: grid;
+    padding: 20px;
+    text-decoration:none;
+    color: #f79764;
+    font-size: 25px;
+}
+
+nav a:hover,
+nav a:focus {
+    transform: scale(1.2);
+}
+
+
+
+.container_product{
+    background-color: #42071a;
+    box-shadow: 0 10px 12px rgba(0, 0, 0, 0.5);
+    font-size: 25px;
+}
+
+.menu, tr, th, td{
+    text-align: center;
+    padding: 20px;    
+    border: 4px solid rgb(243, 0, 89);
+    color: #f79764;
+    margin-left: 33%;
+}
+
+.product{
+    text-align: center;
+    color: rgb(243, 0, 89);
+}
+
+.shrubs-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: rgb(243, 0, 89);
+    padding: 20px;
+}
+
+.container_gallery{
+    background-color: #42071a;
+    box-shadow: 0 10px 12px rgba(0, 0, 0, 0.5);
+    font-size: 25px;
+}
+
+.container_about_us{
+    background-color: #42071a;
+    box-shadow: 0 10px 12px rgba(0, 0, 0, 0.5);
+    font-size: 25px;
+    color: rgb(243, 0, 89);
+    text-align: center;
+}
